@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bg-card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-result-check-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.game-result-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.your-choice-card {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-result-img {
+  width: 90%;
+}
+
+.game-result-heading {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Bree Serif;
+  color: #ffffff;
+}
+
+.result-status {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #ffffff;
+}
+
+.play-again-button {
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #223a5f;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Bree Serif;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

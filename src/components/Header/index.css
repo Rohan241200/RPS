@@ -1,0 +1,56 @@
+.score-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+.score-option-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Bree Serif;
+}
+
+.score-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 20px;
+}
+
+.score-heading {
+  color: #223a5f;
+  font-size: 16px;
+  font-family: Bree Serif;
+  margin: 0px;
+}
+
+.score-desc {
+  color: #223a5f;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-heading {
+    font-size: 18px;
+  }
+
+  .score-desc {
+    font-size: 26px;
+  }
+}

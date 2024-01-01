@@ -1,0 +1,16 @@
+.game-list {
+  width: 40%;
+}
+
+.game-button {
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.game-img {
+  width: 90%;
+}
